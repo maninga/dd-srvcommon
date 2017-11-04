@@ -15,7 +15,7 @@ module.exports = function registerApis(app) {
       next();
     }]);
   } else {
-    const Keycloak = require('@dd/keycloak-connect'),
+    const Keycloak = require('@hotelsoft/keycloak-connect'),
           Protect = require('./../utils/protect'),
           URL = require('url');
 

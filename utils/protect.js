@@ -15,7 +15,7 @@
  */
 'use strict';
 
-const UUID = require('./../node_modules/@dd/keycloak-connect/uuid');
+const UUID = require('./../node_modules/@hotelsoft/keycloak-connect/uuid');
 
 function forceLogin (keycloak, request, response) {
   let host = request.hostname;

@@ -6,7 +6,7 @@ const path = require('path'),
       loopback = require('loopback'),
       connectorName = 'postgresql',
       ds = loopback.createDataSource(connectorName, {
-        host: 'ob.dd.com',
+        host: 'dd.dd.com',
         port: 5432,
         database: 'db',
         username: 'admin',

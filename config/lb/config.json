@@ -27,8 +27,8 @@
     }
   },
   "legacyExplorer": false,
-  "enableAPIExplorer": false,
-  "enableAuth": true,
+  "enableAPIExplorer": true,
+  "enableAuth": false,
   "keycloak": {
     "realm": "dd",
     "auth-server-url": "http://auth-dd.dd.com/auth",
